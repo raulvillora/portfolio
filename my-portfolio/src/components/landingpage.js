@@ -14,17 +14,16 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>Graduate in</h1>
+              <h2>Graduate in</h2>
               <h1>Mathematics and Computer Science</h1>
-
             <hr/>
 
-          <p>SKILLS React | JavaScript | GCP | AWS | </p>
+          <p>Java | React | JavaScript | HTML5 | CSS3 | GCP | Bash | C </p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="www.linkedin.com/in/raul-villora-valencia" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/raul-villora-valencia" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
@@ -34,7 +33,7 @@ class Landing extends Component {
           </a>
 
         </div>
-            </div>
+     </div>
           </Cell>
         </Grid>
       </div>
