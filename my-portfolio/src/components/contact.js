@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-
+import Me from '../images/me.png';
 
 class Contact extends Component {
   render() {
@@ -12,10 +12,10 @@ class Contact extends Component {
 
           <h2>Raúl Villora Valencia</h2>
             <img
-              src={require('./me.png')}
+              src={Me}
               alt="avatar"
-              style={{height: '350px'}}
-               />
+              className="avatar-img"
+              />
              {/* <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A diligent student who enjoys solving problems, embracing new challenges, learning innovative technologies, and exploring new fields to enrich his knowledge. Excellent critical thinking and analytical skills, with a record of accomplishment of being able to collaborate with others. Proven experience in developing web applications.</p> */}
           </Cell>
           <Cell col={6}>

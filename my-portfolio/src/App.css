@@ -20,11 +20,23 @@
   display: flex;
 }
 
-/* Resume Page css */
-.resume-right-col {
-  background: #27221F;
-  color: white;
+.mdl-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto 0 auto;
+  align-items: stretch;
+  justify-content: center;
+  margin: auto;
   padding: 2em;
+  align-items: center;
+}
+
+/* Resume Page css */
+.resume-col {
+  justify-content: center;
+  margin: auto;
+  padding: 2em;
+  align-items: center;
 }
 
 /* contact page css */
