@@ -20,9 +20,8 @@ export default class About extends Component {
                   <img
                     src={I1}
                     alt="Image1"
-                    height= "100%"
-                    width="100%"
-                    margin= "1vh"
+                    height= "99%"
+                    width="98%"
                   />
                 </div>
               </div>
