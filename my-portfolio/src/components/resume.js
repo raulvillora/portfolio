@@ -53,7 +53,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2018}
               jobName="Scientific EdTech, Lund"
-              jobDescription="I collaborated and become part of team to digitalize the Swedish National Test of Autumn Mathematics for pupils in the first grade of Primary Education. There, I learned the entire process of creating a product by creating it from scratch." 
+              jobDescription="I collaborated and become part of team to digitalize the Swedish National Test of Autumn Mathematics for pupils in the first grade of Primary Education. There, I learned the entire process of creating a product by creating it from scratch."
             />
             <hr style={{ borderTop: '5px solid #e22947' }} />
             <h2>EDUCATION</h2>
