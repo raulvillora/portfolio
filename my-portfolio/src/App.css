@@ -31,8 +31,6 @@
 
 .contact-body {
   margin: auto;
-  position: fixed;
-  width: 100%;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
@@ -42,12 +40,10 @@
 
 .contact-grid {
   text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
+  height: 58vh;
   background: white;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
 }
 
 .contact-grid h2 {
@@ -66,12 +62,15 @@
 }
 
 .contact-list i {
-  font-size: 66px;
-  padding-right: 5rem;
+  font-size: 5vh;
+  padding-right: 2rem;
+}
+.contact-list {
+  /* margin-left: 2vh; */
 }
 
 
-/* contact page css */
+/* landing page css */
 
 .avatar-img {
   height: 250px;
@@ -80,21 +79,22 @@
 
 .banner-text {
   background-color: black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
+    opacity: .8;
+    width: auto;
+    height: auto;
+    margin-right: 2vh;
+    border-radius: 10px;
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 6vh;
   font-weight: bold;
   color: white;
 }
 
 .banner-text h2 {
   padding-top: 3vh;
-  font-size: 60px;
+  font-size: 5vh;
   font-weight: bold;
   color: white;
 }
@@ -107,13 +107,13 @@
 
 .banner-text p {
   color: white;
-  font-size: 20px;
-  padding: 1em;
+  font-size: 2vh;
+  padding-top: 1em;
 }
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 50%;
   margin: auto;
 }
