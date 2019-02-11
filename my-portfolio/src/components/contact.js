@@ -4,35 +4,35 @@ import Me from '../images/me.png';
 
 class Contact extends Component {
   render() {
-    return(
-        
+    return (
+
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
 
-          <h2>Raúl Villora Valencia</h2>
+            <h2>Raúl Villora Valencia</h2>
             <img
               src={Me}
               alt="avatar"
               className="avatar-img"
-              />
-             {/* <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A diligent student who enjoys solving problems, embracing new challenges, learning innovative technologies, and exploring new fields to enrich his knowledge. Excellent critical thinking and analytical skills, with a record of accomplishment of being able to collaborate with others. Proven experience in developing web applications.</p> */}
+            />
+            {/* <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A diligent student who enjoys solving problems, embracing new challenges, learning innovative technologies, and exploring new fields to enrich his knowledge. Excellent critical thinking and analytical skills, with a record of accomplishment of being able to collaborate with others. Proven experience in developing web applications.</p> */}
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
-            <hr/>
+            <hr />
 
-          <div className="contact-list">
+            <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Avenir'}}>
-                    <i className="fa fa-phone-square" aria-hidden="true"/>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Avenir' }}>
+                    <i className="fa fa-phone-square" aria-hidden="true" />
                     +34 658128519
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Avenir'}}>
-                    <i className="fa fa-envelope" aria-hidden="true"/>
+                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Avenir' }}>
+                    <i className="fa fa-envelope" aria-hidden="true" />
                     r.vvalencia@alumnos.upm.es
                   </ListItemContent>
                 </ListItem>

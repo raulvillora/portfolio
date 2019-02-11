@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class About extends Component {
   render() {
-    return(
+    return (
       <div>
         <h1>I AM AN AUTHENTIC EXPLORER</h1>
         <p1>I love adventure; it fuels my goals and aspirations in life. An adventurous person must be open-minded and forget all that could go wrong and all those things which are stopping from going even further.</p1>
