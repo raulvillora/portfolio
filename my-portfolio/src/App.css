@@ -85,6 +85,38 @@
     padding-right: 2rem;
 }
 
+.banner-text-about-me {
+    background-color: #f7f4f4;
+    width: auto;
+    height: auto;
+    margin-right: 2vh;
+    border-radius: 15px;
+    margin: 1vh;
+}
+
+.banner-text-about-me p {
+    color: black;
+    padding-top: 1em;
+    display: flex;
+    padding-bottom: 1em;
+    font-family: "Avenir", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1vh;
+    text-align: justify;
+}
+
+.banner-text-about-me h2 {
+    padding-bottom: 0.5em;
+    padding-top: 3vh;
+    font-size: 5vh;
+    font-weight: bold;
+    color: black;
+    margin: 1vh;
+    text-align: center;
+}
+
 /* landing page css */
 
 .avatar-img {
@@ -137,4 +169,42 @@
     color: white;
     font-size: 5em;
     padding: 8px;
+}
+
+.textStyle {
+    display: flex;
+    font-size: 21px;
+    font-family: "Avenir", sans-serif;
+}
+
+.textJob {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: -1px;
+}
+
+.wprBody {
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    display: flex;
+    border-style: solid;
+    border-color: red;
+}
+
+.wprBodyLeft {
+    flex: 1;
+    display: flex;
+    border-style: solid;
+    border-color: orange;
+}
+
+.wprBodyRigth {
+    flex: 1;
+    display: flex;
+    border-style: solid;
+    border-color: pink;
 }

@@ -17,7 +17,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h2>Graduate in</h2>
               <h1>Mathematics and Computer Science</h1>
-              <hr />
+              <hr/>
 
               <p>Java | React | JavaScript | HTML5 | CSS3 | GCP | Bash | C </p>
 
