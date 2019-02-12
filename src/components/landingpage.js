@@ -13,6 +13,7 @@ class Landing extends Component {
               alt="avatar"
               style={{
                 height: '250px',
+                paddingTop: '5em'
               }}
             />
 
