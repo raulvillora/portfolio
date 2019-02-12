@@ -34,7 +34,7 @@
     justify-content: center;
     margin: auto;
     padding: 2em;
-    align-items: center;
+    /* align-items: center; */
 }
 
 /* Resume Page css */
@@ -119,7 +119,7 @@
 /* landing page css */
 
 .banner-text {
-    background-color: #000;
+    /* background-color: #000; */
     opacity: .8;
     height: auto;
     justify-content: center;
