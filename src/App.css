@@ -119,12 +119,13 @@
 /* landing page css */
 
 .banner-text {
-    background-color: black;
+    background-color: #000;
     opacity: .8;
-    width: auto;
     height: auto;
-    margin-right: 2vh;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
+    margin-right: 5vh;
 }
 
 .banner-text h1 {
