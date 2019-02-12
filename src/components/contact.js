@@ -16,7 +16,7 @@ class Contact extends Component {
               alt="avatar"
               className="avatar-img"
               style={{
-                height: '350px'
+                height: '250px'
               }}
             />
             {/* <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A diligent student who enjoys solving problems, embracing new challenges, learning innovative technologies, and exploring new fields to enrich his knowledge. Excellent critical thinking and analytical skills, with a record of accomplishment of being able to collaborate with others. Proven experience in developing web applications.</p> */}
