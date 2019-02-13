@@ -126,6 +126,7 @@
     align-items: center;
     border-radius: 10px;
     margin-right: 2vh;
+    overflow: scroll;
 }
 
 .banner-text h1 {
@@ -189,15 +190,11 @@
     flex: 3;
     flex-direction: row;
     display: flex;
-    /* border-style: solid; */
-    /* border-color: red; */
 }
 
 .wprBodyLeft {
     flex: 1;
     display: flex;
-    /* border-style: solid; */
-    /* border-color: orange; */
 }
 
 .wprBodyLeft p {
@@ -209,6 +206,4 @@
 .wprBodyRigth {
     flex: 1;
     display: flex;
-    /* border-style: solid; */
-    /* border-color: pink; */
 }
