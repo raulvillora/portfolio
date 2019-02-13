@@ -28,13 +28,13 @@ class Contact extends Component {
             <div className="mdl-layout__content">
               <List>
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Avenir' }}>
+                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Avenir' }}>
                     {/* <i className="fa fa-phone-square" aria-hidden="true" /> */}
                     +34 658128519
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Avenir' }}>
+                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Avenir' }}>
                     {/* <i className="fa fa-envelope" aria-hidden="true" /> */}
                     r.vvalencia@alumnos.upm.es
                   </ListItemContent>
