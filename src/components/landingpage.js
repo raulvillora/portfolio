@@ -11,10 +11,7 @@ class Landing extends Component {
             <img
               src={Me}
               alt="avatar"
-              style={{
-                height: '250px',
-                paddingTop: '4em'
-              }}
+              className="landingImage"
             />
 
             <div className="banner-text">

@@ -386,3 +386,20 @@ img {
         margin-left: calc(36vh); */
     }
 }
+
+.landingImage {
+    height: 450px;
+    padding-top: 4em;
+}
+
+@media (min-width: 660) and (max-width: 800px) {
+    .landingImage {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .landingImage {
+        height: 300px;
+    }
+}
