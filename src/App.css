@@ -227,6 +227,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2vh;
 }
 
 .column p {
@@ -265,6 +266,7 @@ img {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 2vh;
     }
 }
 
@@ -279,6 +281,7 @@ img {
         text-align: justify;
         justify-content: center;
         line-height: 1.5;
+        margin-bottom: 2vh;
     }
     .column {
         /* -ms-flex: 50%;
@@ -297,6 +300,7 @@ img {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 2vh;
     }
 }
 
@@ -354,15 +358,15 @@ img {
 
 @media (min-width: 720px) and (max-width: 1120px) {
     .theContainer {
-    margin: 8vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
     }
 }
 
 
 @media (min-width: 1121px) and (max-width: 1301px) {
     .theContainer {
-        margin-top: 8vh;
-        margin-bottom: 8vh;
+
         margin-right: 12vh;
         margin-left: 12vh;
     }
@@ -370,16 +374,14 @@ img {
 
 @media (min-width: 1300px) and (max-width: 1620px) {
     .theContainer {
-        margin-top: 8vh;
-        margin-bottom: 8vh;
+
         margin-right: 20vh;
         margin-left: 20vh;
     }
 }
 @media (min-width: 1621px) and (max-width: 10000px) {
     .theContainer {
-        margin-top: 8vh;
-        margin-bottom: 8vh;
+  
         margin-right: 36vh;
         margin-left: 36vh;
         /* margin-right: calc(36vh);

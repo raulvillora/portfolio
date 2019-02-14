@@ -15,7 +15,6 @@ class Resume extends Component {
               skill="Java"
               progress={85}
             />
-            <br></br>
             <Skills
               skill="React"
               progress={70}

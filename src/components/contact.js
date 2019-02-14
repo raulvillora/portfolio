@@ -23,7 +23,6 @@ class Contact extends Component {
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
-            <hr />
 
             <div className="mdl-layout__content">
               <List>
