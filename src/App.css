@@ -392,14 +392,16 @@ img {
     padding-top: 4em;
 }
 
-@media (min-width: 660) and (max-width: 800px) {
+@media (min-width: 656) and (max-width: 958px) {
     .landingImage {
-        height: 350px;
+        height: 370px;
+        padding-top: 2em;
     }
 }
 
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 655px) {
     .landingImage {
         height: 300px;
+        padding-top: 2em;
     }
 }
