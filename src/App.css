@@ -122,6 +122,7 @@ img {
     text-align: center;
 }
 
+
 /* landing page css */
 
 .banner-text {
@@ -342,8 +343,29 @@ img {
 }
 
 .contentContactMe {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Avenir";
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+.contentContactMe {
+    font-size: 21px;
+    font-family: "Avenir";
+    }
+    .contact-grid h2{
+        font-size: 27px;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 650px) {
+    .contentContactMe {
+        font-size: 25px;
+        font-family: "Avenir";
+        }
+        .contact-grid h2{
+            font-size: 40px;
+        }
 }
 
 .theContainer {
