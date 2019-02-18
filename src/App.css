@@ -39,7 +39,7 @@ img {
     align-items: stretch;
     justify-content: center;
     margin: auto;
-    padding: 2em;
+    padding: 1em;
     /* align-items: center; */
 }
 
@@ -48,7 +48,7 @@ img {
 .resume-col {
     justify-content: center;
     margin: auto;
-    padding: 2em;
+    padding: 1em;
     align-items: center;
 }
 
@@ -216,7 +216,7 @@ img {
 
 .textStyle {
     display: flex;
-    font-size: 21px;
+    font-size: 14px;
     font-family: "Avenir", sans-serif;
     text-align: justify;
     justify-content: center;
@@ -454,11 +454,23 @@ img {
         height: 300px;
         padding-top: 2em;
     }
+    .resume-col h2 {
+        font-size: 35px;
+    }
+    .resume-col h4 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .landingImage {
         height: 250px;
         padding-top: 1.5em;
+    }
+    .resume-col h2 {
+        font-size: 30px;
+    }
+    .resume-col h4 {
+        font-size: 18px;
     }
 }
