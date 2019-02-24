@@ -27,7 +27,7 @@ export default class About extends Component {
                 </div>
               </div>
 
-              
+
             </div>
           </div>
 
@@ -48,7 +48,7 @@ export default class About extends Component {
                 </div>
               </div>
 
-              
+
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export default class About extends Component {
                 </div>
               </div>
 
-              
+
             </div>
           </div>
 
@@ -88,7 +88,7 @@ export default class About extends Component {
                 </div>
               </div>
 
-              
+
             </div>
           </div>
         </Grid>

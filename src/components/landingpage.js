@@ -6,7 +6,7 @@ class Landing extends Component {
   render() {
     return (
       <div style={{ width: '100%', margin: 'auto' }}>
-        <Grid className="landing-grid" style={{overflow: 'scroll'}}>
+        <Grid className="landing-grid" style={{ overflow: 'scroll' }}>
           <Cell col={12}>
             <img
               src={Me}

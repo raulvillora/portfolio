@@ -11,11 +11,11 @@ class Contact extends Component {
           <Cell col={6}>
 
             <h2>Raúl Villora Valencia</h2>
-              <img
-                src={Me}
-                alt="avatar"
-                style={{width:'60%', border:'0'}}
-              />
+            <img
+              src={Me}
+              alt="avatar"
+              style={{ width: '60%', border: '0' }}
+            />
             {/* <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A diligent student who enjoys solving problems, embracing new challenges, learning innovative technologies, and exploring new fields to enrich his knowledge. Excellent critical thinking and analytical skills, with a record of accomplishment of being able to collaborate with others. Proven experience in developing web applications.</p> */}
           </Cell>
           <Cell col={6}>
