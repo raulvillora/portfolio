@@ -235,7 +235,7 @@ img {
 
 .textStyle {
     display: flex;
-    font-size: 14px;
+    font-size: 20px;
     font-family: "Avenir", sans-serif;
     text-align: justify;
     justify-content: center;
@@ -293,6 +293,14 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
+    .textStyle {
+        display: flex;
+        font-size: 18px;
+        font-family: "Avenir", sans-serif;
+        text-align: justify;
+        justify-content: center;
+        line-height: 1.5;
+    }
     .column p {
         font-size: 20px;
         display: block;
@@ -323,6 +331,14 @@ img {
 /* Responsive layout - makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 720px) {
+    .textStyle {
+        display: flex;
+        font-size: 16px;
+        font-family: "Avenir", sans-serif;
+        text-align: justify;
+        justify-content: center;
+        line-height: 1.5;
+    }
     .column p {
         font-size: 20px;
         display: block;
@@ -357,6 +373,14 @@ img {
 /* Responsive layout - makes a two column-layout instead of four columns */
 
 @media screen and (max-width: 655px) {
+    .textStyle {
+        display: flex;
+        font-size: 15px;
+        font-family: "Avenir", sans-serif;
+        text-align: justify;
+        justify-content: center;
+        line-height: 1.5;
+    }
     .column p {
         font-size: 20px;
         text-align: justify;
@@ -377,6 +401,14 @@ img {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
+    .textStyle {
+        display: flex;
+        font-size: 14px;
+        font-family: "Avenir", sans-serif;
+        text-align: justify;
+        justify-content: center;
+        line-height: 1.5;
+    }
     .column {
         -ms-flex: 100%;
         flex: 100%;
