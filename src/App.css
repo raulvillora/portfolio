@@ -396,6 +396,10 @@ img {
     font-family: "Avenir";
 }
 
+.theContainer {
+    margin: 1vh;
+}
+
 @media (min-width: 300px) and (max-width: 500px) {
     .contentContactMe {
         font-size: 21px;
@@ -415,16 +419,6 @@ img {
         font-size: 40px;
     }
 }
-
-.theContainer {
-    margin: 1vh;
-}
-
-/* @media (min-width: 720px) and (max-width: 800px) {
-    .theContainer {
-        margin: 8vh;
-    }
-} */
 
 @media (min-width: 720px) and (max-width: 1120px) {
     .theContainer {
@@ -447,12 +441,10 @@ img {
     }
 }
 
-@media (min-width: 1621px) and (max-width: 10000px) {
+@media only screen and (min-width: 1621px) {
     .theContainer {
         margin-right: 36vh;
         margin-left: 36vh;
-        /* margin-right: calc(36vh);
-        margin-left: calc(36vh); */
     }
 }
 
