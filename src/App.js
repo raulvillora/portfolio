@@ -68,7 +68,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <Layout>
+            <Layout touch-action="manipulation">
                 <Header className="header-color" title={<div style={{ textDecoration: 'none', color: 'white' }} onClick={this.handleLandingPageClick}>Portfolio</div>} scroll>
                     <Navigation>
                         <div style={{ fontSize: '19px' }} onClick={this.handleResumeClick}>Resume</div>
