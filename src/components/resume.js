@@ -71,7 +71,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2019}
               schoolName="Linköping University"
-              schoolDescription="To do my final year project I decided to go more than 2.000 km away from home to joined an Erasmus + mobility program and since I wanted to carry out a meaningful project I developed the project through an internship."
+              schoolDescription="To carry out the Final Project at a university abroad, I joined the Erasmus+ mobility programme, which allowed me to study the project at Linköping University and develop it through an internship."
             />
           </Cell>
         </Grid>
