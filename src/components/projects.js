@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import {CardText, CardActions, Button} from 'react-mdl';
+import { Card, CardText, CardActions, Button} from 'react-mdl';
 import Portfolio from '../images/Portfolio.jpg';
 import Game2048 from '../images/2048.jpg';
 
