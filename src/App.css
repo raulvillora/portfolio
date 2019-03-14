@@ -23,7 +23,7 @@ html,
 body {
     margin: 0;
     height: 100%;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .landing-grid {
@@ -45,20 +45,21 @@ body {
     display: flex;
 }
 
-.projects-grid img{
+.projects-grid img {
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2vh;
 }
+
 /* 
 img {
     max-width: 98%;
     max-height: 40%;
 } */
 
-.projects{
+.projects {
     display: flex;
     flex-flow: row wrap;
     margin: 0 auto 0 auto;
@@ -220,6 +221,12 @@ img {
     color: white;
 }
 
+.cardTextProjects {
+    font-size: 2vh;
+    font-weight: bold;
+    line-height: 2.5vh;
+}
+
 @media (min-width: 412px) and (max-width: 500px) {
     .banner-text h1 {
         font-size: 5vh;
@@ -247,6 +254,9 @@ img {
         font-size: 3.5vh;
         font-weight: bold;
         color: white;
+    }
+    .cardTextProjects {
+        font-size: 2vh;
     }
 }
 
